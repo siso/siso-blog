@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Simone'
 SITENAME = u"SiSo's Blog"
-SITEURL = ''
+SITEURL = 'http://blog.idsiso.com'
 
 PATH = 'content'
 
@@ -21,13 +21,12 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Python.org', 'http://python.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/soldasimo'),
+          ('github', 'https://github.com/siso'),
+          ('linkedin', 'http://au.linkedin.com/in/simonesoldateschi'),)
 
 DEFAULT_PAGINATION = 10
 
