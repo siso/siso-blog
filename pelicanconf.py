@@ -31,7 +31,10 @@ SOCIAL = (('twitter', 'https://twitter.com/soldasimo'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 import os.path
 THEME = os.path.expanduser('~/workspace/pelican-themes/bootstrap2')
+
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
